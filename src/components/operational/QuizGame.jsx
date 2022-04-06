@@ -13,7 +13,7 @@ import FiftyFifty from "./FiftyFifty";
 import "../../style/Game.css";
 import "animate.css";
 
-const LENGTH = 2;
+const LENGTH = 20;
 const firstSupriseIndex = 1;
 const secondSupriseIndex = 4;
 const thirdSupriseIndex = 7;
