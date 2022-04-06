@@ -1,0 +1,141 @@
+
+
+.greeting {
+  font-size: 25px;
+  color: #000;
+  position: relative;
+  top: 45px;
+  left: -3%;
+  letter-spacing: 1px;
+}
+
+.greeting-second {
+  font-size: 25px;
+  color: #000;
+  position: relative;
+  top: -20px;
+  left: 14%;
+  letter-spacing: 1px;
+}
+
+.loader {
+  top: -10px;
+  width: 386px;
+  height: 104px;
+  min-height: auto;
+  margin: 87px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+  min-height: 39%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  width: 20px;
+  height: 20px;
+  min-height: auto;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 40px;
+}
+
+ul li:nth-child(1) {
+  -webkit-animation: dots 4s infinite 1s;
+}
+
+ul li:nth-child(2) {
+  -webkit-animation: dots 4s infinite 1.6s;
+}
+
+ul li:nth-child(3) {
+  -webkit-animation: dots 4s infinite 2.2s;
+}
+
+ul li:nth-child(4) {
+  -webkit-animation: dots 4s infinite 2.8s;
+}
+
+.pac {
+  width: 60px;
+  height: 60px;
+  min-height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -20%;
+  margin: auto;
+  -webkit-animation: pacMove 4s infinite linear;
+  z-index: 1;
+}
+
+.pac:after {
+  content: " ";
+  width: 60px;
+  height: 30px;
+  min-height: auto;
+  top: 0;
+  background-color: yellow;
+  border-radius: 30px 30px 0 0;
+  position: absolute;
+  transform-origin: bottom;
+  -webkit-animation: eat 0.7s infinite linear;
+}
+
+.pac:before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 30px;
+  min-height: auto;
+  background-color: Yellow;
+  border-radius: 0 0 30px 30px;
+  transform-origin: top;
+  -webkit-animation: eatunder 0.7s infinite linear;
+}
+
+@keyframes eat {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes eatunder {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes pacMove {
+  100% {
+    left: 120%;
+  }
+}
+
+@keyframes dots {
+  0% {
+    transform: scale(0);
+  }
+  65% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1);
+  }
+}

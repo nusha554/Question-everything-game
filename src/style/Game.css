@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Modak");
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+.header {
+  position: relative;
+  text-align: center;
+  margin-top: 38px;
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Luckiest Guy", cursive;
+  color: #f9f9f9;
+  text-shadow: 0 3px #287017, 0 5px #4e2881, 0 7px #808080;
+}
+
+.quiz-container {
+  position: relative;
+  margin: 22px auto 20px;
+  width: 95%;
+  max-width: 850px;
+  min-height: 500px;
+  background: rgba(170, 159, 156, 0.2);
+  border: 1px solid #f9f9f9;
+  box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 5%);
+  top: 30px;
+}
+
+.text {
+
+  line-height: 1;
+  padding: 13px 3px 8px 6px;
+  position: relative;
+  top: -7%;
+  margin-left: 24px;
+  left: -3%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #f9f9f9;
+  font-family: "Luckiest Guy", cursive;
+  width: 68%;
+  outline: 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.join-screen {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.join-screen h2 {
+  font-size: 25px;
+  color: #000;
+  position: relative;
+  top: -7%;
+  min-height: 26%;
+  letter-spacing: 1px;
+}
+
+.join-screen p {
+  position: relative;
+  padding-top: 2%;
+  font-size: 17px;
+  max-width: 350px;
+  color: rgb(55 55 58 / 90%);
+  top: -7%;
+}
+
+.join-form {
+  top: 3em;
+  position: relative;
+}
+
+.quiz-screen .question .progress-bar {
+  width: 0%;
+  height: 5px;
+}
+
+.quiz-screen .question .progress-bar.active {
+  animation: progress 10s linear;
+}
+
+.quiz-screen .question .question-count {
+  margin: 20px 0px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+}
+
+.quiz-screen .question .main {
+  padding: 20px 40px;
+}
+
+.quiz-screen .question .main .title span {
+  font-size: 15px;
+  color: #555;
+  font-weight: 600;
+}
+
+.quiz-screen .question .main .title p {
+  margin-top: 5px;
+  color: #111;
+  text-align: center;
+  font-size: 140%;
+}
+
+.quiz-screen .question .main .options {
+  margin: 40px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.quiz-screen .question .main .options .option {
+  width: calc(100% - 20px);
+  border: 1px solid #bbb;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.quiz-screen .question .main .options .option.active {
+  background-color: #000;
+  color: rgba(123, 118, 253, 0.9);
+}
+
+.option:hover {
+  background-color: #000;
+  color: rgba(123, 118, 253, 0.9);
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+    background: #555;
+  }
+  79% {
+    width: 79%;
+    background: #555;
+  }
+  80% {
+    width: 80%;
+    background: rgb(204, 136, 136);
+  }
+  100% {
+    width: 100%;
+    background: rgb(199, 9, 9);
+  }
+}
+
+.button-question {
+  left: 42%;
+  top: -15px;
+}
+
+.question {
+  padding-bottom: 2%;
+}
+
+.category,
+.fifty-fifty {
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  /* border: 1px #bbb;
+  border-style: solid none; */
+  position: relative;
+  top: -17px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: rgba(123, 118, 253, 0.9);
+}
+
+.fifty-fifty {
+  position: absolute;
+  left: 81%;
+  font-size: 23px;
+  top: 4%;
+  cursor: pointer;
+}
+
+.fifty-fifty:hover {
+  text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fifty-fifty:focus {
+  opacity: 0.2;
+  cursor: auto;
+}
+
+.fifty-fifty-option {
+  color: #000;
+  background-color: rgba(123, 118, 253, 0.9);
+}
+.btn-submit {
+  top: 30%;
+  left: 1%;
+  animation-delay: 34s;
+}
+
+.text {
+  animation-delay: 32s;
+}
