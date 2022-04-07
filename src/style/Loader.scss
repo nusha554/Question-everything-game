@@ -28,6 +28,30 @@
   overflow: hidden;
 }
 
+
+
+@media screen and (max-width: 600px) {
+  .loader  {
+    left: -7px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting  {
+    font-size: 18px;
+    left: -10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting-second  {
+    font-size: 18px;
+    left: 6%;
+  }
+}
+
+
+
 ul {
   width: 100%;
   height: 100%;
@@ -101,6 +125,17 @@ ul li:nth-child(4) {
   transform-origin: top;
   -webkit-animation: eatunder 0.7s infinite linear;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .greeting-second  {
+    font-size: 18px;
+    left: 6%;
+  }
+}
+
+
 
 @keyframes eat {
   0% {
