@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Modak");
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 30px;
+    top: -62px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .header {
+    font-size: 80px;
+  }
+}
+
 .header {
   position: relative;
   text-align: center;
   margin-top: 38px;
-  font-size: 56px;
+  /* font-size: 56px; */
   font-weight: 900;
   font-family: "Luckiest Guy", cursive;
   color: #f9f9f9;
@@ -25,7 +38,6 @@
 }
 
 .text {
-
   line-height: 1;
   padding: 13px 3px 8px 6px;
   position: relative;
@@ -38,8 +50,20 @@
   font-family: "Luckiest Guy", cursive;
   width: 68%;
   outline: 0;
-  font-size: 14px;
+  /* font-size: 14px; */
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .text {
+    font-size: 14px;
+  }
 }
 
 .join-screen {
@@ -162,6 +186,13 @@
   top: -15px;
 }
 
+@media screen and (max-width: 600px) {
+  .button-question {
+    left: 37%;
+    top: -16px;
+  }
+}
+
 .question {
   padding-bottom: 2%;
 }
@@ -172,8 +203,6 @@
   letter-spacing: 3px;
   padding-top: 12px;
   padding-bottom: 9px;
-  /* border: 1px #bbb;
-  border-style: solid none; */
   position: relative;
   top: -17px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -187,6 +216,13 @@
   font-size: 23px;
   top: 4%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .fifty-fifty {
+    left: 79%;
+    font-size: 17px;
+  }
 }
 
 .fifty-fifty:hover {
