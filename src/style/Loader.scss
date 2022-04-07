@@ -1,20 +1,20 @@
 
 
 .greeting {
-  font-size: 25px;
-  color: #000;
-  position: relative;
-  top: 45px;
-  left: -3%;
-  letter-spacing: 1px;
+  font-size: 116%;
+    color: #000;
+    position: relative;
+    top: 20px;
+    left: -3%;
+    letter-spacing: 1px;
 }
 
 .greeting-second {
-  font-size: 25px;
+  font-size: 120%;
   color: #000;
   position: relative;
-  top: -20px;
-  left: 14%;
+  top: -91px;
+  left: 10%;
   letter-spacing: 1px;
 }
 
@@ -39,7 +39,8 @@
 @media screen and (max-width: 600px) {
   .greeting  {
     font-size: 18px;
-    left: -10%;
+    left: -4%;
+    top: -107%;
   }
 }
 
