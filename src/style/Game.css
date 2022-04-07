@@ -41,6 +41,7 @@
 
 @media screen and (max-height: 600px) {
   .quiz-container {
+
     width: 85%;
     min-height: 300px;
     font-size: 80% !important;
@@ -192,14 +193,15 @@
 }
 
 .button-question {
-  left: 42%;
-  top: -15px;
+  left: 40%;
+  top: 102%;
+  position: absolute !important;
 }
 
 @media all and (max-width: 600px) {
   .button-question {
-    left: 36vw;
-    top: -16px;
+    left: 38%;
+    top: 102%;
   }
 }
 
@@ -243,6 +245,12 @@
   }
 }
 
+@media screen and (max-height: 600px) {
+  .fifty-fifty {
+    left: 79%;
+    font-size: 17px;
+  }
+}
 .fifty-fifty:hover {
   text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
