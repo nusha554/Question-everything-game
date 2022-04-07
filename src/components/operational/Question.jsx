@@ -34,7 +34,7 @@ function Question({
     setTimeout(() => {
       progressBar.current?.classList.add("active");
     }, 0);
-    timer.current = setTimeout(gotoNextQuestion, 12 * 1000); // move to next question after 10 seconds
+    timer.current = setTimeout(gotoNextQuestion, 10 * 1000); // move to next question after 10 seconds
     return gotoNextQuestion;
   }, [question]);
 
