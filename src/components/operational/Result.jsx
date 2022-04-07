@@ -13,7 +13,7 @@ function Result({ playerName, result, retry }) {
   const [medium, setMedium] = useState(false);
   const [high, setHigh] = useState(false);
   const [lowLimit, highLimit] = [7, 13];
-  const [width, height] = [700, 500];
+  const [width, height] = [550, 300];
 
   useEffect(() => {
     if (result.correct <= lowLimit) {
