@@ -1,18 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Modak");
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
-@media screen and (max-width: 600px) {
-  .header {
-    font-size: 30px;
-    top: -62px;
-  }
-}
 
-@media screen and (min-width: 601px) {
-  .header {
-    font-size: 80px;
-  }
-}
 
 .header {
   position: relative;
@@ -25,17 +14,41 @@
   text-shadow: 0 3px #287017, 0 5px #4e2881, 0 7px #808080;
 }
 
+@media screen and ((max-width: 600px) or (max-height: 300px)) {
+  .header {
+    font-size: 30px;
+    top: -62px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .header {
+    top: -94px;
+    font-size: 274%;
+  }
+}
+
 .quiz-container {
   position: relative;
   margin: 22px auto 20px;
   width: 95%;
   max-width: 850px;
-  min-height: 500px;
+  /* min-height: 500px; */
+  max-height: calc(100% - 400px);
   background: rgba(170, 159, 156, 0.2);
-  border: 1px solid #f9f9f9;
+  /* border: 1px solid #f9f9f9; */
   box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 5%);
   top: 30px;
 }
+
+@media screen and (max-height: 600px) {
+  .quiz-container  {
+    width: 85%;
+    min-height: 300px;
+    font-size: 80% !important;
+  }
+}
+
 
 .text {
   line-height: 1;
@@ -97,7 +110,6 @@
 }
 
 .join-form {
-  top: 3em;
   position: relative;
 }
 
