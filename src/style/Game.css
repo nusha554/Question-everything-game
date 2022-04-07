@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Modak");
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
-
-
 .header {
   position: relative;
   text-align: center;
@@ -42,13 +40,12 @@
 }
 
 @media screen and (max-height: 600px) {
-  .quiz-container  {
+  .quiz-container {
     width: 85%;
     min-height: 300px;
     font-size: 80% !important;
   }
 }
-
 
 .text {
   line-height: 1;
@@ -126,7 +123,7 @@
   margin: 20px 0px;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 15px;
+  font-size: 2vh;
   color: #555;
 }
 
@@ -135,7 +132,7 @@
 }
 
 .quiz-screen .question .main .title span {
-  font-size: 15px;
+  font-size: 2vh;
   color: #555;
   font-weight: 600;
 }
@@ -144,7 +141,7 @@
   margin-top: 5px;
   color: #111;
   text-align: center;
-  font-size: 140%;
+  font-size: 2vh;
 }
 
 .quiz-screen .question .main .options {
@@ -162,6 +159,7 @@
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
+  font-size: 2.5vh;
 }
 
 .quiz-screen .question .main .options .option.active {
@@ -198,10 +196,18 @@
   top: -15px;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .button-question {
-    left: 37%;
+    left: 36vw;
     top: -16px;
+  }
+}
+
+@media all and (max-height: 700px) {
+  .button-question {
+    font-size: 3vh;
+    left: 38%;
+
   }
 }
 
