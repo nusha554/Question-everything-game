@@ -5,7 +5,7 @@ import "../../style/Game.css";
 import "animate.css";
 import click from "../../assets/sound/click.mp3";
 import next from "../../assets/sound/next.mp3";
-import warning from "../../assets/sound/warning.mp3";
+
 
 function Question({
   question,
@@ -35,9 +35,6 @@ function Question({
       progressBar.current?.classList.add("active");
     }, 0);
     timer.current = setTimeout(gotoNextQuestion, 12 * 1000); // move to next question after 10 seconds
-    setTimeout(() => {
-      playAudio(warning);
-    },  8 * 1000);
     return gotoNextQuestion;
   }, [question]);
 
