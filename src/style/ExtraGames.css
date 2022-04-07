@@ -132,14 +132,14 @@ body {
 }
 
 .btn-puzzle {
+  left: 32.9%;
   position: relative;
-  left: 39.9%;
-  top: -25px;
+  top: 72px;
 }
 
 @media screen and (max-width: 600px) {
   .btn-puzzle {
-    left: 33.5%;
-    top: 128px;
+    left: 32.9%;
+    top: 72px;
   }
 }
