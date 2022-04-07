@@ -24,7 +24,8 @@
 
 @media screen and (max-width: 601px) {
   .bouncing-text {
-    font-size: 26px;
+    font-size: 159%;
+    top: -73px;
   }
 }
 
@@ -282,8 +283,8 @@
 
 @media screen and (max-width: 1200px) {
   .puzzle-img {
-    width: 10%;
-    left: 82%;
+    width: 8%;
+    left: 78%;
     top: -24%;
   }
 }
