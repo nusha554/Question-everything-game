@@ -36,13 +36,11 @@ function JoinQuizGame({ setPlayerName, start }) {
         multiText={[
           "You'll have limited time.",
           "Answer correctly each question on varius topics.",
-          "Play until the very end.",
           "Surprises might cross your way...",
-          "They will effect your final score.",
           "Now, how shall I call you ?",
         ]}
-        multiTextDelay={1500}
-        typeSpeed={50}
+        multiTextDelay={1000}
+        typeSpeed={30}
         hideCursorAfterText={true}
       />
       <form className="join-form" onSubmit={handleSubmit}>
@@ -50,13 +48,11 @@ function JoinQuizGame({ setPlayerName, start }) {
           required
           type="text "
           name="playerName"
-          // className="text animate__animated animate__zoomIn animate__repeat-1	animate__delay-2s animate__slow"
-          className="text animate__animated animate__zoomIn"
+          className="text animate__animated animate__zoomIn animate__delay-5s"
         />
         <input
           type="submit"
-          // className="button btn-submit animate__animated animate__zoomIn animate__repeat-1	animate__delay-3s animate__slow"
-          className="button btn-submit animate__animated animate__zoomIn"
+          className="button btn-submit animate__animated animate__zoomIn animate__delay-5s"
           value="Let's go!"
         />
       </form>
