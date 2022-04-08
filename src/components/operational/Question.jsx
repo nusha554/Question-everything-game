@@ -52,7 +52,6 @@ function Question({
       </div>
       <div className="main ">
         <p className="category"> {question?.category}</p>
-        <p> {question?.rightAnswer}</p>
         <div className={"title animate__animated animate__jello"}>
           <p> {question?.questionText}</p>
         </div>
