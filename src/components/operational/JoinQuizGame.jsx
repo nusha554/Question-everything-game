@@ -35,8 +35,8 @@ function JoinQuizGame({ setPlayerName, start }) {
         cursorColor="#3F3D56"
         multiText={[
           "You'll have limited time.",
-          "Answer correctly each question on varius topics.",
-          "Surprises might cross your way...",
+          "To answer correctly each question on varius topics.",
+          "Find secret extra games...",
           "Now, how shall I call you ?",
         ]}
         multiTextDelay={1000}
