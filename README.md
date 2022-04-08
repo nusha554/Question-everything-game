@@ -12,3 +12,12 @@ Responsivity is added, yet it's still work in progress.
 The Game Play (But better try yourself): 
 * Please nore the right answers in the demo are only for show purpuses and they obviously don't appear in the real game.
 
+Extra games (Memory game and Puzzle game): 
+
+https://user-images.githubusercontent.com/57936085/162426343-f0ecc53f-b1c2-4188-8d75-a3f43e4ece0f.mp4
+
+
+
+
+The Trivia:
+
