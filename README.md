@@ -4,6 +4,7 @@ Quiz game built with React js.
 The game built as a riddle. 
 It includes 20 trivia questions on varios topics, some cool extra games (Memory game and Puzzle game) that you dob't want to miss and also suprises along the way.
 You'll have limited time to answer each question. 
+The questions are from the following API https://opentdb.com/api.php?amount=100 .
 If you stuck on a question, try to use "50/50" helper. 
 It will effect your score, but it's better than nothing.
 Addional animations and sound effects are also included.
